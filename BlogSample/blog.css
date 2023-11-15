@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 1200px;
+    padding-block: 40px;
+    padding-inline: 80px;
+    background-color: blanchedalmond;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid black;
+}
+
+.brand {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: x-large;
+}
+
+a {
+    display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: gray;
+    height: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  a:hover {
+    transform: scale(1.0);
+  }
+  
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+li {
+    margin-left: 30px;
+}
